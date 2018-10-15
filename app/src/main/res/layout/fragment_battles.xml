@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeBattles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/content_battles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.roughike.swipeselector.SwipeSelector
+                    android:id="@+id/swipeSelector"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:swipe_customFontPath="fonts/planet_n2_cyr_lat.otf"
+                    app:swipe_descriptionGravity="center"
+                    app:swipe_indicatorActiveColor="@color/colorBlack"
+                    app:swipe_indicatorInActiveColor="@color/colorGray"
+                    app:swipe_indicatorMargin="12dp"
+                    app:swipe_indicatorSize="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="200">
+
+                    <info.hoang8f.widget.FButton
+                        android:id="@+id/b_trick"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="100"
+                        android:text="@string/tricking"
+                        android:textColor="@color/colorWhite" />
+
+                    <info.hoang8f.widget.FButton
+                        android:id="@+id/b_tramp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="100"
+                        android:text="@string/trampoline"
+                        android:textColor="@color/colorWhite" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="200">
+
+                    <info.hoang8f.widget.FButton
+                        android:id="@+id/b_break"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="100"
+                        android:text="@string/break_dance"
+                        android:textColor="@color/colorWhite" />
+
+
+                    <info.hoang8f.widget.FButton
+                        android:id="@+id/b_parkour"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="100"
+                        android:text="@string/parkour"
+                        android:textColor="@color/colorWhite" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/colorBlack" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="8dp"
+                    android:weightSum="200">
+
+                    <info.hoang8f.widget.FButton
+                        android:id="@+id/b_battlesInProcess"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="100"
+                        android:text="@string/battles_in_process"
+                        android:textColor="@color/colorWhite" />
+
+                    <info.hoang8f.widget.FButton
+                        android:id="@+id/b_myBattles"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_weight="100"
+                        android:text="@string/my_battles"
+                        android:textColor="@color/colorWhite" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

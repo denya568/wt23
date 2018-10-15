@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="Save_settings">Сохранить настройки</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Другие параметры"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Выбрать приложение"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ОТКЛ."</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ВКЛ."</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Ввод"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"Пробел"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Меню +"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Поиск"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Открыть доступ"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Открыть доступ приложению \"<ns1:g id="APPLICATION_NAME">%s</ns1:g>\""</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="about_oneself">О себе</string>
+    <string name="action_settings">Настройки</string>
+    <string name="app_name">World Trick 23</string>
+    <string name="authentication">Авторизация</string>
+    <string name="battle">Вызвать</string>
+    <string name="battles_count">Баттлов: </string>
+    <string name="battles_in_process">Идущие баттлы</string>
+    <string name="birthday">Дата рождения</string>
+    <string name="birthday_example">ГГГГ-мм-дд</string>
+    <string name="blocked">заблокирован</string>
+    <string name="blocked_user">Данный пользователь заблокирован!</string>
+    <string name="break_dance">Брейк-данс</string>
+    <string name="cancel">Отмена</string>
+    <string name="cancelled">Отменено</string>
+    <string name="category">Категория</string>
+    <string name="challenge_from">Вызовы</string>
+    <string name="close">Закрыть</string>
+    <string name="comment">Комментировать</string>
+    <string name="comment_deleted">Комментарий удален</string>
+    <string name="complaint_will_be_considered">Ваша жалоба будет рассмотрена!</string>
+    <string name="contact_support">Советуем обратиться в поддержку.</string>
+    <string name="content_settings">Настройки контента</string>
+    <string name="copied">Скопировано</string>
+    <string name="copy_ink">Скопировать ссылку</string>
+    <string name="date">Дата</string>
+    <string name="didnt_order">Вы ничего не заказывали!</string>
+    <string name="download">Скачать</string>
+    <string name="downloaded">Загрузка завершена!</string>
+    <string name="email">E-mail</string>
+    <string name="email_"><b><u>E-mail*</u></b></string>
+    <string name="email_not_exist">Такого EMail не существует!</string>
+    <string name="enter_email">Введите ваш адрес электронной почты</string>
+    <string name="error">Ошибка</string>
+    <string name="expectation">Ожидание</string>
+    <string name="file_error">Ошибка в файле</string>
+    <string name="fill_fields">Заполните обязательные поля</string>
+    <string name="finale">Финал</string>
+    <string name="forget_password">Забыл свой пароль?</string>
+    <string name="full_address">Адрес полностью*</string>
+    <string name="gallery_choose">Выбрать из галереи</string>
+    <string name="gather_battle">В заявке на баттл</string>
+    <string name="go_to_battle">Перейти на стр. баттла</string>
+    <string name="group_battles">Групповые баттлы</string>
+    <string name="hello">Привет, </string>
+    <string name="in_stock">В наличии: </string>
+    <string name="incorrect_l_or_p">Введенные вами логин или пароль неверны!</string>
+    <string name="individ_battles">Индивидуальные баттлы</string>
+    <string name="info_email_natice">Вам было отправлено сообщение на вашу почту!</string>
+    <string name="instagram">Instagram</string>
+    <string name="invalid_link">Неверная ссылка</string>
+    <string name="join">Вступить</string>
+    <string name="judge">Судья</string>
+    <string name="log_in">Войти</string>
+    <string name="log_out">Выйти</string>
+    <string name="login">Логин</string>
+    <string name="login_"><u><b>Логин*</b></u></string>
+    <string name="low_rang">Недостаточно ранга</string>
+    <string name="make_decision">Примите решение до </string>
+    <string name="menu_battles">Онлайн-баттлы</string>
+    <string name="menu_health">Полезное</string>
+    <string name="menu_news">Новости</string>
+    <string name="menu_personal">Личное</string>
+    <string name="menu_rank">Ранг</string>
+    <string name="menu_search">Поиск</string>
+    <string name="menu_shop">Магазин</string>
+    <string name="menu_tutorials">Туториалы</string>
+    <string name="menu_wallpaper">Обои</string>
+    <string name="missing_video">видео пока нет</string>
+    <string name="my_battles">Мои баттлы</string>
+    <string name="my_group_battles">Мои групповые баттлы</string>
+    <string name="my_ind_battles">Мои индивидуальные баттлы</string>
+    <string name="name">Имя</string>
+    <string name="name_">Имя*</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="no_battles">Баттлов нет</string>
+    <string name="no_network">Нет сети</string>
+    <string name="no_one_recorded">Пока никто не записывался.
+        Будьте первым..</string>
+    <string name="no_video">Видео пока нет</string>
+    <string name="nothing">ничего</string>
+    <string name="notices">Уведомления</string>
+    <string name="number_of_losses">Проигрышей: </string>
+    <string name="number_of_wins">Побед: </string>
+    <string name="open_in_browser">Открыть в браузере</string>
+    <string name="open_opponent_video">Открыть видео противника</string>
+    <string name="open_your_video">Открыть ваше видео</string>
+    <string name="parkour">Паркур</string>
+    <string name="participate_in">Участие в баттлах по: </string>
+    <string name="password">Пароль</string>
+    <string name="password_"><b><u>Пароль*</u></b></string>
+    <string name="patronymic">Отчество</string>
+    <string name="phone_number">Номер телефона*</string>
+    <string name="playback">Воспроизведение видео</string>
+    <string name="rank">Ранг: </string>
+    <string name="rank_money">Ранг</string>
+    <string name="recover">Восстановить</string>
+    <string name="registration">Регистрация</string>
+    <string name="registration_date">Дата регистрации</string>
+    <string name="round">Раунд</string>
+    <string name="save_cart">Сохранять корзину в магазине</string>
+    <string name="saved">Сохранено</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Поиск"</string>
+    <string name="season">Сезон</string>
+    <string name="select_directions">Выберите направления, в которых вы хотите участвовать в баттлах!</string>
+    <string name="semifinal">Полуфинал</string>
+    <string name="send">Отправить</string>
+    <string name="share">Поделиться</string>
+    <string name="shoot_video">Снять видео</string>
+    <string name="shop_notices">Уведомления магазина</string>
+    <string name="show_stream">Показывать прямые трансляции</string>
+    <string name="sign_in">Зарегистрироваться</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stream">Прямая трансляция</string>
+    <string name="successfully_logged">Вы успешно вошли в систему!</string>
+    <string name="successfully_regisrated">Вы успешно были зарегистрированы!</string>
+    <string name="surname">Фамилия</string>
+    <string name="surname_">Фамилия*</string>
+    <string name="to_a_battle">на баттл</string>
+    <string name="trampoline">Батутный фристайл</string>
+    <string name="tricking">Трикинг</string>
+    <string name="unknown_winner">пока неизвестен</string>
+    <string name="upload">Загрузить</string>
+    <string name="uploaded">Видео загружено</string>
+    <string name="uploading">Закачка</string>
+    <string name="user">Пользователь</string>
+    <string name="users_count">Число пользователей</string>
+    <string name="view">Смотреть</string>
+    <string name="vs"> VS </string>
+    <string name="wait">Подождите! Видео загружается!</string>
+    <string name="we_will_send">Ваш заказ будет отправлен в ближайшее время!</string>
+    <string name="winner">Победитель</string>
+    <string name="yes">Да</string>
+    <string name="you_are_down">Вы записаны на баттл</string>
+    <string name="you_challenged">Вы вызвали</string>
+    <string name="you_late">К сожалению вы опоздали</string>
+    <string name="you_were_challenged"> вызывает вас на баттл в категории</string>
+    <string name="your_answer">Ваш выход</string>
+    <string name="zip_code">Индекс</string>
+    <string name="zip_code_">Индекс*</string>
+</resources>

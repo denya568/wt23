@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/regLay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/regLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="70"
+                android:background="@drawable/round_et"
+                android:gravity="start"
+                android:hint="@string/login_"
+                android:maxLines="2"
+                android:padding="8dp"
+                android:textColorHint="@color/colorSiteRedPrizrak" />
+
+            <EditText
+                android:id="@+id/regPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="70"
+                android:background="@drawable/round_et"
+                android:gravity="start"
+                android:hint="@string/password_"
+                android:inputType="textPassword"
+                android:maxLines="2"
+                android:padding="8dp"
+                android:textColorHint="@color/colorSiteRedPrizrak" />
+
+            <EditText
+                android:id="@+id/regEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="70"
+                android:background="@drawable/round_et"
+                android:gravity="start"
+                android:hint="@string/email_"
+                android:inputType="textEmailAddress"
+                android:maxLines="2"
+                android:padding="8dp"
+                android:textColorHint="@color/colorSiteRedPrizrak" />
+
+            <EditText
+                android:id="@+id/regName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="70"
+                android:background="@drawable/round_et"
+                android:gravity="start"
+                android:hint="@string/name_"
+                android:maxLines="2"
+                android:padding="8dp"
+                android:textColorHint="@color/colorSiteRedPrizrak" />
+
+            <EditText
+                android:id="@+id/regSecondName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="70"
+                android:background="@drawable/round_et"
+                android:gravity="start"
+                android:hint="@string/surname"
+                android:maxLines="2"
+                android:padding="8dp"
+                android:textColorHint="@color/colorGray" />
+
+            <EditText
+                android:id="@+id/regPatronymic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="70"
+                android:background="@drawable/round_et"
+                android:gravity="start"
+                android:hint="@string/patronymic"
+                android:maxLines="2"
+                android:padding="8dp" />
+
+            <DatePicker
+                android:id="@+id/regBirthday"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/colorBlack" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/registrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_in"
+                android:textColor="@color/colorWhite" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

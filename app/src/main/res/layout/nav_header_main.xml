@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/headerAcc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="30">
+
+        <TextView
+            android:id="@+id/tvMyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:maxLines="5"
+            android:text="MyName"
+            android:textColor="@color/colorBlack" />
+
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/avatarRound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:src="@mipmap/icon"
+            app:riv_border_color="@color/colorBlack"
+            app:riv_border_width="1dp"
+            app:riv_corner_radius="23dp" />
+
+
+        <TextView
+            android:id="@+id/tvMyLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:maxLines="5"
+            android:text="MyLogin"
+            android:textColor="@color/colorBlack" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:weightSum="200">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="65"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/enter_email"
+            android:textColor="@color/colorBlack"
+            android:textSize="23sp"/>
+
+        <EditText
+            android:id="@+id/etMailRestore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_et"
+            android:gravity="center"
+            android:hint="wt23@wt23.ru"
+            android:maxLines="3"
+            android:textColor="@color/colorSiteBlue"
+            android:textColorHint="@color/colorGray"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/b_recover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="@color/colorWhite"
+        android:layout_gravity="center"
+        android:layout_weight="135"
+        android:text="@string/recover" />
+
+
+</LinearLayout>

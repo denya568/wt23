@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_fiber_new_black_24dp"
+            android:title="@string/menu_news"
+            app:actionViewClass="android.widget.TextView" />
+        <item
+            android:id="@+id/nav_battles"
+            android:icon="@drawable/ic_thumbs_up_down_black_24dp"
+            android:title="@string/menu_battles"
+            app:actionViewClass="android.widget.TextView" />
+        <item
+            android:id="@+id/nav_wallpapers"
+            android:icon="@drawable/ic_landscape_black_24dp"
+            android:title="@string/menu_wallpaper"
+            app:actionViewClass="android.widget.TextView" />
+        <item
+            android:id="@+id/nav_rang"
+            android:icon="@drawable/ic_videogame_asset_black_24dp"
+            android:title="@string/menu_rank"
+            app:actionViewClass="android.widget.TextView" />
+
+        <item
+            android:id="@+id/nav_poleznoe"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="@string/menu_health"
+            app:actionViewClass="android.widget.TextView" />
+
+        <item
+            android:id="@+id/nav_tutorials"
+            android:icon="@drawable/ic_fitness_center_black_24dp"
+            android:title="@string/menu_tutorials"
+            app:actionViewClass="android.widget.TextView" />
+
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_local_grocery_store_black_24dp"
+            android:title="@string/menu_shop"
+            app:actionViewClass="android.widget.TextView" />
+        <item
+            android:id="@+id/nav_find"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="@string/menu_search"
+            app:actionViewClass="android.widget.TextView" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/action_settings"
+            app:actionViewClass="android.widget.TextView" />
+
+    </group>
+
+</menu>
